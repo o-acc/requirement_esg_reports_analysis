@@ -11,6 +11,7 @@ confection==0.1.5
 cymem==2.0.13
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
 idna==3.11
+ipywidgets==8.1.8
 Jinja2==3.1.6
 lxml==6.0.2
 markdown-it-py==4.0.0
@@ -21,6 +22,7 @@ murmurhash==1.0.15
 numpy==2.4.2
 packaging==26.0
 pandas==3.0.1
+plotly==6.7.0
 preshed==3.0.12
 pyarrow==23.0.1
 pydantic==2.12.5
@@ -52,3 +54,8 @@ transformers==5.2.0
 torch==2.10.0
 setfit==1.1.3
 wrapt==2.1.1
+streamlit>=1.45
+jupyter-server-proxy>=4.0
+# edgar-crawler extra deps (https://github.com/lefterisloukas/edgar-crawler)
+cssutils>=2.6
+pathos>=0.3.0
